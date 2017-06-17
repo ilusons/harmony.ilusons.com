@@ -1,11 +1,17 @@
-image: alpine:latest
+image: node:6.3.1
 
 pages:
-  stage: deploy
+  cache:
+    paths:
+    - node_modules/
+
   script:
-  - echo 'Nothing to do...'
+  - npm install -g metalsmith
+  - npm install
+  - make build
   artifacts:
     paths:
     - public
   only:
   - master
+

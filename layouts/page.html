@@ -1,0 +1,26 @@
+<!DOCTYPE HTML>
+
+<html>
+	<head>
+		{{> head}}
+	</head>
+	<body class="landing">
+		<div id="page-wrapper">
+
+            <header id="header">
+                <h1 id="logo"><a href="/">{{ title }}</a></h1>
+                <nav id="nav">
+                    {{> header}}
+                </nav>
+            </header>
+            
+            {{{ contents }}}
+                
+			{{> footer}}
+
+		</div>
+
+		{{> scripts}}
+
+	</body>
+</html>
