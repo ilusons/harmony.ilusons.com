@@ -1,5 +1,6 @@
 
-build: node build.js production
+build: node_modules
+    node build.js production
 
 node_modules: package.json
 	npm install
