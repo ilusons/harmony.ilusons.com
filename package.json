@@ -6,6 +6,7 @@
   "devDependencies": {
     "handlebars": "*",
     "metalsmith": "*",
+    "metalsmith-watch": "^1.0.3",
     "metalsmith-broken-link-checker": "^0.1.10",
     "metalsmith-build-date": "^0.2.0",
     "metalsmith-collections": "*",
