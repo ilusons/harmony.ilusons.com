@@ -47,7 +47,7 @@ var app = Metalsmith(__dirname)
             author: "ilusons",
             url: "http://harmony.ilusons.com"
         },
-        yt_link: "https://www.youtube.com/embed/iTqp1R98EqM"
+        yt_link: "https://www.youtube.com/watch?v=s84s7D_7Dt0&list=PLR6v5-VD7fUJtQepsBTq7Wf44e_z1eM8b"
     })
     .source('./src')
     .destination('./public')
