@@ -36,14 +36,14 @@ var isD = args.some(function(v) {
 var app = Metalsmith(__dirname)
     .metadata({
         title: "harmony",
-        description: "A new kind of music player @ ilusons",
+        description: "A unique, non-conventional music player for Android with personalized recommendations and free music! @ ilusons",
         author: "ilusons",
-        subtitle: "A new kind of music player",
+        subtitle: "A unique, non-conventional music player for Android with personalized recommendations and free music!",
         url: "http://harmony.ilusons.com",
         downloadLink: "https://play.google.com/store/apps/details?id=com.ilusons.harmony&hl=en",
         site: {
             title: "harmony",
-            description: "A new kind of music player @ ilusons",
+            description: "A unique, non-conventional music player for Android with personalized recommendations and free music! @ ilusons",
             author: "ilusons",
             url: "http://harmony.ilusons.com"
         },
